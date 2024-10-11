@@ -1,7 +1,9 @@
 #code for creating a window
 from tkinter import*
-
-root = Tk() # type: ignore
+ # type: ignore
+from customtkinter import *
+ 
+root = CTk()
 
 #window setting
 root.geometry("290x445")
@@ -50,5 +52,6 @@ b8.grid(row=2,column=4,padx=10,pady=10)
 
 
 root.mainloop()
+
 
 
