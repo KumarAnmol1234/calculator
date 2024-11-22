@@ -2,6 +2,7 @@
 from tkinter import*
  # type: ignore
 from customtkinter import *
+import math as m
  
 root = CTk()
 
@@ -26,7 +27,7 @@ b.grid(row=0,column=3,sticky=NE)
 
 #creating writing ar
 entry =CTkEntry(root, placeholder_text="enter the numbers")
-entry.grid(row=1,column=1,columnspan=20)
+entry.grid(row=1,column=1,columnspan=3)
 
 
 #creting buttons
