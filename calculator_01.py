@@ -25,9 +25,10 @@ b=Label (image=photo)
 b.grid(row=0,column=3,sticky=NE)
 
 
-#creating writing ar
+#creating writing area
 entry =CTkEntry(root, placeholder_text="enter the numbers")
 entry.grid(row=1,column=1,columnspan=3)
+
 
 
 #creting buttons
