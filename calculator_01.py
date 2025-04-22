@@ -20,9 +20,9 @@ border.grid(column=1,columnspan=3,sticky=N)
 a=Label (border,text="This is a sample code by @kr.anmol1234",bg="gray")
 a.grid(row=0,column=1)
 
-photo= PhotoImage(file="logo.png")
-b=Label (image=photo)
-b.grid(row=0,column=3,sticky=NE)
+#photo= PhotoImage(file="logo.png")
+#b=Label (image=photo)
+#b.grid(row=0,column=3,sticky=NE)
 
 
 #creating writing area
@@ -34,7 +34,9 @@ entry.grid(row=1,column=1,columnspan=3)
 #creting buttons
 
 
-
+class numbers:
+    def __init__(alpha,root):
+        pass
 #buttons
 
 b1=CTkButton(root,text="  1  ",width=4,hover_color="gray",text_color="black",anchor="N")
@@ -73,3 +75,4 @@ divide.grid(row=7, column=3, padx=33, pady=20,)
 
 
 root.mainloop()
+
