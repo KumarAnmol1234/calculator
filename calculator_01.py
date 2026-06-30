@@ -1,6 +1,5 @@
 #code for creating a window
 from tkinter import*
- # type: ignore
 from customtkinter import *
 import math as m
  
