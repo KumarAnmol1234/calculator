@@ -1,5 +1,8 @@
 import tkinter as tk
 from tkinter import font as tkfont
+from tkinter import*
+from customtkinter import *
+
 import math as m
 import customtkinter as ctk
 #the app and geometry
@@ -9,7 +12,6 @@ root.title("Calculator")
 root.resizable(False,False)
 root.configure(fg_color="#1a1a1a")
 BG_COLOR = "#272727"
-
 #frames
 frame= ctk.CTkFrame(root, fg_color="#1a1a1a", corner_radius=0)
 frame.pack(fill="both", expand=True,padx=12,pady=12)
