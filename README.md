@@ -1,5 +1,5 @@
 # calculator
-# 🧮 PZ Calculator
+# 🧮 Programming Zero Calculator
 
 A modern desktop calculator built with **Python**, **Tkinter**, and **CustomTkinter**.
 
