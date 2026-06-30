@@ -1,4 +1,3 @@
-#code for creating a window
 from tkinter import*
 from customtkinter import *
 import math as m
